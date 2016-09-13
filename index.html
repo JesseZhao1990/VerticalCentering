@@ -27,7 +27,8 @@
 <h3>
 <a id="1-针对单行文本可以用line-height" class="anchor" href="#1-%E9%92%88%E5%AF%B9%E5%8D%95%E8%A1%8C%E6%96%87%E6%9C%AC%E5%8F%AF%E4%BB%A5%E7%94%A8line-height" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>1. 针对单行文本可以用line-height</h3>
 
-<p>当height的值和line-height的值相等时。文本就居中了（仅仅适用于单行文本）</p>
+<p>当height的值和line-height的值相等时。文本就居中了（仅仅适用于单行文本）<br>
+此方法演示地址：<a href="http://codepen.io/zhaojianxin/pen/ZpQLEV">演示地址</a></p>
 
 <p><strong>html</strong></p>
 
@@ -52,7 +53,8 @@
 <h3>
 <a id="2-设置display为table的方法" class="anchor" href="#2-%E8%AE%BE%E7%BD%AEdisplay%E4%B8%BAtable%E7%9A%84%E6%96%B9%E6%B3%95" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2. 设置display为table的方法</h3>
 
-<p>把父元素的display设置为table。子元素的display设置为table-cell</p>
+<p>把父元素的display设置为table。子元素的display设置为table-cell<br>
+此方法演示地址：<a href="http://codepen.io/zhaojianxin/pen/EgPkaz">演示地址</a></p>
 
 <p><strong>html</strong></p>
 
@@ -79,7 +81,8 @@
 <h3>
 <a id="3-绝对定位和负边距" class="anchor" href="#3-%E7%BB%9D%E5%AF%B9%E5%AE%9A%E4%BD%8D%E5%92%8C%E8%B4%9F%E8%BE%B9%E8%B7%9D" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>3. 绝对定位和负边距</h3>
 
-<p>利用绝对定位先向下移动父元素高度的50%。再利用负边距往上移动自身高度的50%</p>
+<p>利用绝对定位先向下移动父元素高度的50%。再利用负边距往上移动自身高度的50%<br>
+此方法演示地址：<a href="http://codepen.io/zhaojianxin/pen/bwEgVY">演示地址</a></p>
 
 <p><strong>html</strong></p>
 
@@ -94,21 +97,22 @@
 
 <pre><code>#parent {
     position: relative;
-    height: 500px;
+    height: 200px;
     border:1px solid #000;
 }
 #child {
     position: absolute;
     top: 50%;
     height: 30%;
-    margin-top: -15%;
+    margin-top: -25px;
 }
 </code></pre>
 
 <h3>
 <a id="4-绝对定位和拉伸元素" class="anchor" href="#4-%E7%BB%9D%E5%AF%B9%E5%AE%9A%E4%BD%8D%E5%92%8C%E6%8B%89%E4%BC%B8%E5%85%83%E7%B4%A0" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>4. 绝对定位和拉伸元素</h3>
 
-<p>子元素利用绝对定位同时设置top和bottom充满父元素。然后再设置height</p>
+<p>子元素利用绝对定位同时设置top和bottom充满父元素。然后再设置height<br>
+此方法演示地址：<a href="http://codepen.io/zhaojianxin/pen/bwEgVY">演示地址</a></p>
 
 <p><strong>html</strong></p>
 
@@ -136,9 +140,10 @@
 </code></pre>
 
 <h3>
-<a id="5-设置相等的上边内边距" class="anchor" href="#5-%E8%AE%BE%E7%BD%AE%E7%9B%B8%E7%AD%89%E7%9A%84%E4%B8%8A%E8%BE%B9%E5%86%85%E8%BE%B9%E8%B7%9D" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>5. 设置相等的上边内边距</h3>
+<a id="5-设置相等的上下的内边距" class="anchor" href="#5-%E8%AE%BE%E7%BD%AE%E7%9B%B8%E7%AD%89%E7%9A%84%E4%B8%8A%E4%B8%8B%E7%9A%84%E5%86%85%E8%BE%B9%E8%B7%9D" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>5. 设置相等的上下的内边距</h3>
 
-<p>设置相等的上边内边距</p>
+<p>设置相等的上边内边距<br>
+此方法演示地址：<a href="http://codepen.io/zhaojianxin/pen/BLjpKw">演示地址</a></p>
 
 <p><strong>html</strong></p>
 
@@ -163,7 +168,8 @@
 <h3>
 <a id="6-浮动的方法" class="anchor" href="#6-%E6%B5%AE%E5%8A%A8%E7%9A%84%E6%96%B9%E6%B3%95" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>6. 浮动的方法</h3>
 
-<p>让floater浮动。占据父元素的一半高，然后清除浮动。然后让floater的下边距为负的子元素的高度的一半</p>
+<p>让floater浮动。占据父元素的一半高，然后清除浮动。然后让floater的下边距为负的子元素的高度的一半<br>
+此方法演示地址：<a href="http://codepen.io/zhaojianxin/pen/pEgRbO">演示地址</a></p>
 
 <p><strong>html</strong></p>
 
@@ -193,7 +199,8 @@
 <h3>
 <a id="7-flex-box" class="anchor" href="#7-flex-box" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>7. flex box</h3>
 
-<p>利用弹性盒<a href="http://www.w3cplus.com/css3/a-guide-to-flexbox.html">详情</a></p>
+<p>利用弹性盒<a href="http://www.w3cplus.com/css3/a-guide-to-flexbox.html">有篇文章对flex box有详细的介绍，可点击查看详情</a><br>
+此方法演示地址：<a href="http://codepen.io/zhaojianxin/pen/XjXpKw">演示地址</a></p>
 
 <p><strong>html</strong></p>
 
