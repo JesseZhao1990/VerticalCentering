@@ -155,9 +155,15 @@
 ```  
 **css**
 ```
-#parent {height: 250px;}
+#parent {
+  display: flex;
+  height: 300px; /* Or whatever */
+}
+
 #child {
-   
+  width: 100px;  /* Or whatever */
+  height: 100px; /* Or whatever */
+  margin: auto;  /* Magic! */
 }
 ```    
 
