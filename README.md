@@ -24,7 +24,7 @@
 ```
 
 ### 2. 设置display为table的方法
-把父元素的display设置为table。子元素的display设置为table-cell
+把父元素的display设置为table。子元素的display设置为table-cell [演示地址](http://codepen.io/zhaojianxin/pen/EgPkaz)
 	 
 **html**
 ``` 
@@ -47,7 +47,7 @@
 }
 ```  
 ### 3. 绝对定位和负边距
-利用绝对定位先向下移动父元素高度的50%。再利用负边距往上移动自身高度的50%
+利用绝对定位先向下移动父元素高度的50%。再利用负边距往上移动自身高度的50% [演示地址](http://codepen.io/zhaojianxin/pen/bwEgVY)
 	 
 **html**
 ``` 
@@ -61,18 +61,18 @@
 ```
 #parent {
 	position: relative;
-	height: 500px;
+	height: 200px;
 	border:1px solid #000;
 }
 #child {
 	position: absolute;
 	top: 50%;
 	height: 30%;
-	margin-top: -15%;
+	margin-top: -25px;
 }
 ```  
 ### 4. 绝对定位和拉伸元素
-子元素利用绝对定位同时设置top和bottom充满父元素。然后再设置height
+子元素利用绝对定位同时设置top和bottom充满父元素。然后再设置height [演示地址](http://codepen.io/zhaojianxin/pen/bwEgVY)
 	 
 **html**
 ``` 
@@ -97,8 +97,8 @@
     margin: auto;
 }
 ```      
-### 5. 设置相等的上边内边距
-设置相等的上边内边距
+### 5. 设置相等的上下的内边距
+设置相等的上边内边距 [演示地址](http://codepen.io/zhaojianxin/pen/BLjpKw)
 	 
 **html**
 ``` 
@@ -119,7 +119,7 @@
 }
 ```      
 ### 6. 浮动的方法
-让floater浮动。占据父元素的一半高，然后清除浮动。然后让floater的下边距为负的子元素的高度的一半
+让floater浮动。占据父元素的一半高，然后清除浮动。然后让floater的下边距为负的子元素的高度的一半 [演示地址](http://codepen.io/zhaojianxin/pen/pEgRbO)
 	 
 **html**
 ``` 
@@ -145,7 +145,8 @@
 }
 ```    
 ### 7. flex box
-利用弹性盒[详情](http://www.w3cplus.com/css3/a-guide-to-flexbox.html)
+利用弹性盒[有篇文章对flex box有详细的介绍，可点击查看详情](http://www.w3cplus.com/css3/a-guide-to-flexbox.html)
+[演示地址](http://codepen.io/zhaojianxin/pen/XjXpKw)
 	 
 **html**
 ``` 
