@@ -6,21 +6,21 @@
 	 
 **html**
 ``` 
-    <div id="parent">
-		<div id="child">
-			Line-Height Method For Vertical Centering With CSS
-		</div>
+<div id="parent">
+	<div id="child">
+		Line-Height Method For Vertical Centering With CSS
 	</div>
+</div>
 ```  
 **css**
 ```
-	#parent{
-		height: 200px;     
-		border:1px solid #000;   //不是必须，仅仅是为了演示
-	}
-	#child{
-		line-height: 200px;
-	}
+#parent{
+	height: 200px;     
+	border:1px solid #000;   //不是必须，仅仅是为了演示
+}
+#child{
+	line-height: 200px;
+}
 ```
 
 ### 2. 设置display为table的方法
@@ -28,34 +28,34 @@
 	 
 **html**
 ``` 
-    <div id="parent">
-		<div id="child">
-			table Method For Vertical Centering With CSS
-		</div>
+<div id="parent">
+	<div id="child">
+		table Method For Vertical Centering With CSS
 	</div>
+</div>
 ```  
 **css**
 ```
-	#parent {
-			display: table;
-			border:1px solid #000;
-			height: 500px;
-		}
-	#child {
-		display: table-cell;
-		vertical-align: middle;
+#parent {
+		display: table;
+		border:1px solid #000;
+		height: 500px;
 	}
+#child {
+	display: table-cell;
+	vertical-align: middle;
+}
 ```  
 ### 3. 绝对定位和负边距
 利用绝对定位先向下移动父元素高度的50%。再利用负边距往上移动自身高度的50%
 	 
 **html**
 ``` 
-    <div id="parent">
-		<div id="child">
-			Vertical Centering With CSS
-		</div>
+<div id="parent">
+	<div id="child">
+		Vertical Centering With CSS
 	</div>
+</div>
 ```  
 **css**
 ```
@@ -76,11 +76,11 @@
 	 
 **html**
 ``` 
-    <div id="parent">
-		<div id="child">
-			Vertical Centering With CSS
-		</div>
+<div id="parent">
+	<div id="child">
+		Vertical Centering With CSS
 	</div>
+</div>
 ```  
 **css**
 ```
@@ -102,11 +102,11 @@
 	 
 **html**
 ``` 
-    <div id="parent">
-		<div id="child">
-			Vertical Centering With CSS
-		</div>
+<div id="parent">
+	<div id="child">
+		Vertical Centering With CSS
 	</div>
+</div>
 ```  
 **css**
 ```
