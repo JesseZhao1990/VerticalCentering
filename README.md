@@ -2,7 +2,7 @@
 在实际的开发中，垂直居中一个元素一直以来都不是那么好搞定。今天总结7种常用的方法
 
 ### 1. 针对单行文本可以用line-height
-当height的值和line-height的值相等时。文本就居中了（仅仅适用于单行文本）
+当height的值和line-height的值相等时。文本就居中了（仅仅适用于单行文本）[演示地址](http://codepen.io/zhaojianxin/pen/ZpQLEV)
 	 
 **html**
 ``` 
