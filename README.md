@@ -2,7 +2,8 @@
 在实际的开发中，垂直居中一个元素一直以来都不是那么好搞定。今天总结7种常用的方法
 
 ### 1. 针对单行文本可以用line-height
-当height的值和line-height的值相等时。文本就居中了（仅仅适用于单行文本）[演示地址](http://codepen.io/zhaojianxin/pen/ZpQLEV)
+当height的值和line-height的值相等时。文本就居中了（仅仅适用于单行文本）
+此方法演示地址：[演示地址](http://codepen.io/zhaojianxin/pen/ZpQLEV)
 	 
 **html**
 ``` 
@@ -24,7 +25,8 @@
 ```
 
 ### 2. 设置display为table的方法
-把父元素的display设置为table。子元素的display设置为table-cell [演示地址](http://codepen.io/zhaojianxin/pen/EgPkaz)
+把父元素的display设置为table。子元素的display设置为table-cell 
+此方法演示地址：[演示地址](http://codepen.io/zhaojianxin/pen/EgPkaz)
 	 
 **html**
 ``` 
@@ -47,7 +49,8 @@
 }
 ```  
 ### 3. 绝对定位和负边距
-利用绝对定位先向下移动父元素高度的50%。再利用负边距往上移动自身高度的50% [演示地址](http://codepen.io/zhaojianxin/pen/bwEgVY)
+利用绝对定位先向下移动父元素高度的50%。再利用负边距往上移动自身高度的50% 
+此方法演示地址：[演示地址](http://codepen.io/zhaojianxin/pen/bwEgVY)
 	 
 **html**
 ``` 
@@ -72,7 +75,8 @@
 }
 ```  
 ### 4. 绝对定位和拉伸元素
-子元素利用绝对定位同时设置top和bottom充满父元素。然后再设置height [演示地址](http://codepen.io/zhaojianxin/pen/bwEgVY)
+子元素利用绝对定位同时设置top和bottom充满父元素。然后再设置height 
+此方法演示地址：[演示地址](http://codepen.io/zhaojianxin/pen/bwEgVY)
 	 
 **html**
 ``` 
@@ -98,7 +102,8 @@
 }
 ```      
 ### 5. 设置相等的上下的内边距
-设置相等的上边内边距 [演示地址](http://codepen.io/zhaojianxin/pen/BLjpKw)
+设置相等的上边内边距 
+此方法演示地址：[演示地址](http://codepen.io/zhaojianxin/pen/BLjpKw)
 	 
 **html**
 ``` 
@@ -119,7 +124,7 @@
 }
 ```      
 ### 6. 浮动的方法
-让floater浮动。占据父元素的一半高，然后清除浮动。然后让floater的下边距为负的子元素的高度的一半 [演示地址](http://codepen.io/zhaojianxin/pen/pEgRbO)
+让floater浮动。占据父元素的一半高，然后清除浮动。然后让floater的下边距为负的子元素的高度的一半 此方法演示地址：[演示地址](http://codepen.io/zhaojianxin/pen/pEgRbO)
 	 
 **html**
 ``` 
@@ -146,7 +151,7 @@
 ```    
 ### 7. flex box
 利用弹性盒[有篇文章对flex box有详细的介绍，可点击查看详情](http://www.w3cplus.com/css3/a-guide-to-flexbox.html)
-[演示地址](http://codepen.io/zhaojianxin/pen/XjXpKw)
+此方法演示地址：[演示地址](http://codepen.io/zhaojianxin/pen/XjXpKw)
 	 
 **html**
 ``` 
